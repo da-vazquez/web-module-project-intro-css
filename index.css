@@ -35,9 +35,16 @@ header nav a {
     vertical-align: baseline;
 }
 
+
+
 .link-1{
     background-color: #FF764E;
     
+}
+
+.link-1:hover {
+    background-color: red;
+    transform: rotateZ(-30deg)
 }
 
 .link-2 {
@@ -45,8 +52,18 @@ header nav a {
 
 }
 
+.link-2:hover {
+    background-color: red;
+    transform: rotateZ(-30deg)
+}
+
 .link-3 {
     background-color: #FFCD69;
+}
+
+.link-3:hover {
+    background-color: red;
+    transform: rotateZ(-30deg)
 }
 
 .container img {
@@ -61,11 +78,11 @@ header nav a {
 
 h1 {
     display: inline-block;
-    font-size: 4em;
+    font-size: 5em;
     vertical-align: baseline;
     font-family: "Chelsea Market";
     margin: 0 auto;
-    width: auto;
+    width: 900px;
     margin-inline-start: 300px;
     margin-inline-end: 500px;
     padding: 20px;
@@ -185,9 +202,9 @@ footer nav a {
 
 .footer-content img {
     margin: 1px;
-    height: 350px;
+    height: 500px;
     width: 100%;
-    display: flex;   
+    display: block;   
 
 
 }
