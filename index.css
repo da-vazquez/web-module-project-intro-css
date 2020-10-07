@@ -19,27 +19,25 @@ font: inherit;
 vertical-align: baseline;  
 }
 
-body {
-  
 
-}
 
 header nav a {
-    display: inline-block;
+    display: inline-flex;
     border-radius: 20px;
     padding: 2em;
-    list-style: none;
-    margin: 20px;
+    margin: 65px;
     color: white;
-    width: 200px;
+    width: 300px;
     text-align: center;
     font-size: 1em;
-
-
+    justify-content: space-around;
+    font-family: "Roboto Mono";
+    vertical-align: baseline;
 }
 
 .link-1{
     background-color: #FF764E;
+    
 }
 
 .link-2 {
@@ -53,31 +51,39 @@ header nav a {
 
 .container img {
     border-radius: 66%;
-    height: 375px;
-    width: 400px;
-    margin: 20px;
-    
+    height: 600px;
+    width: 600px;
+    margin: 1px;
+    padding: 1px;
+    display: inline-block;
 
 }
 
 h1 {
-    display: block;
+    display: inline-block;
     font-size: 4em;
     vertical-align: baseline;
-    font-family: cursive;
+    font-family: "Chelsea Market";
     margin: 0 auto;
-    width: 700px;
+    width: auto;
+    margin-inline-start: 300px;
+    margin-inline-end: 500px;
+    padding: 20px;
+
 
 }
 
-p {
-    display: block;
+.intro p {
+    color: black;
+    text-align: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
+    margin-inline-start: 300px;
+    margin-inline-end: 500px;
+    
+    
 }
+
 
 
 .container {
@@ -93,7 +99,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-family: "roboto-mono";
+    font-family: "Roboto Mono";
     font-size: 2em;
     padding: 5px;
     width: 600px;
@@ -104,16 +110,16 @@ p {
 
 .about {
     background-color: #DDB9A3;
-    padding: 5px;
+    padding: 4em;
     margin: 3em;
     color: white;
 
 }
 
 .about p {
-    display: flex;
-    font-family: "roboto-mono";
-    font-size: 34px;
+    display: inline-block;
+    font-family: "Roboto Mono";
+    font-size: 40px;
     margin: 5px;
     padding: 5px;
     text-align: center;
@@ -125,7 +131,7 @@ p {
 section .container  {
     display: inline-block;
     justify-content: center;
-    margin: 40px;
+    margin: 20px;
     
 
 }
@@ -139,16 +145,18 @@ section .container  {
     font-size: 2em;
     flex-direction: column;
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
+    padding: 100px;
+    font-family: "Roboto Mono"
     
 
 }
 
 .flaticon {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     padding: 1px;
-    display: block;
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     
@@ -156,23 +164,21 @@ section .container  {
 }
 
 
-body {
-    display: block;
 
-
-}
 
 
 footer nav a {
-    display: inline-block;
+    display: inline-flex;
     border-radius: 20px;
     padding: 2em;
-    list-style: none;
-    margin: 20px;
+    margin: 65px;
     color: white;
     width: 200px;
     text-align: center;
     font-size: 1em;
+    justify-content: space-around;
+    font-family: "Roboto Mono";
+    vertical-align: baseline;
 
 }
 
